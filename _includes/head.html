@@ -19,3 +19,22 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
+
+<style>
+  /* Prevent horizontal scrollbar site-wide */
+  html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  /* Constrain media and make large content scroll within its container */
+  img, iframe, video {
+    max-width: 100%;
+    height: auto;
+  }
+  pre, table {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+</style>

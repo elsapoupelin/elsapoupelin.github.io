@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <p style="text-align: justify;">
-I am a first-year PhD candidate at the Centre d'économie de la Sorbonne (CES) and the Sorbonne School of Economics under the co-supervision of <a href="https://leamarchal.fr">Léa Marchal</a> (CES, Paris 1) and <a href="https://sites.google.com/view/valettejerome/home">Jérôme Valette</a> (CEPII).
+I am a first-year PhD candidate at the Centre d'Economie de la Sorbonne (CES) and the Sorbonne School of Economics under the co-supervision of <a href="https://leamarchal.fr">Léa Marchal</a> (CES, Paris 1) and <a href="https://sites.google.com/view/valettejerome/home">Jérôme Valette</a> (CEPII).
 </p>
 
 <p style="text-align: justify;">

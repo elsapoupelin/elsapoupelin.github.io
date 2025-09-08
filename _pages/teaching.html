@@ -4,17 +4,51 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
+
+<style>
+/* page-level override so Professor name/link stays inline (no main.scss change) */
+.teaching-course .professor-line,
+.teaching-course .professor-line a {
+  display: inline;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add extra spacing for the final "Other Academic Responsibilities" section */
+.other-academic {
+  margin-top: 3rem;
+}
+.other-academic h2,
+.other-academic h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.other-academic p {
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+.other-academic details {
+  margin-bottom: 1rem;
+}
+.other-academic details > summary {
+  margin-bottom: 0.5rem;
+}
+</style>
+
 {% include base_path %}
 
 {% assign ordered_teaching = site.teaching | sort: 'order' %}
 {% for post in ordered_teaching %}
   <div class="teaching-course">
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <h2>{{ post.title }}</h2>
     <p><strong>Type:</strong> {{ post.type }}</p>
     <p><strong>Level:</strong> {{ post.level }}</p>
     <p><strong>Years:</strong> {{ post.years }}</p>
-  <span><strong>Professor:</strong> {{ post.profs | markdownify }}</span>    
-  <p><strong>Language:</strong> {{ post.language }}</p>
+    <p class="professor-line"><strong>Professor:</strong>
+      {{ post.profs | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+    </p>
+    <p><strong>Language:</strong> {{ post.language }}</p>
     <details>
       <summary><strong>Description</strong></summary>
       <div>{{ post.description | markdownify }}</div>
@@ -29,10 +63,12 @@ author_profile: true
   </div>
 {% endfor %}
 
-<h2>Other Academic Responsibilities</h2>
-<h3>Conference Series in Economics Development - Vice President (2024-2025)</h3>
-Lead organization of a series of conferences, contacting speakers, chairing sessions, and logistical coordination.
-<details>
-  <summary><strong>Seminar Description:</strong></summary>
-  <p>This seminar invites professionals and researchers in the field of Development Economics to present their work to students and discuss current issues in the field. Previous guests include Kunal Sen (UNU-WIDER), Lucas Leblanc (OECD-LEED), Olivia Cuq (OECD Developement), Andrea Cinque (OECD Development Centre) </p>
-</details>
+<section class="other-academic">
+  <h2>Other Academic Responsibilities</h2>
+  <h3>Conference Series in Economics Development - Vice President (2024-2025)</h3>
+  <p>Lead organization of a series of conferences, contacting speakers, chairing sessions, and logistical coordination.</p>
+  <details>
+    <summary><strong>Seminar Description:</strong></summary>
+    <p>This seminar invites professionals and researchers in the field of Development Economics to present their work to students and discuss current issues in the field. Previous guests include Kunal Sen (UNU-WIDER), Lucas Leblanc (OECD-LEED), Olivia Cuq (OECD Developement), Andrea Cinque (OECD Development Centre)</p>
+  </details>
+</section>

@@ -3,7 +3,7 @@ title: "International Trade TD"
 collection: teaching
 type: Tutorial Course
 permalink: /teaching/internationaltrade
-years: "2025-2026"
+years: "2023-2024, 2025-2026"
 profs: "[Léa Marchal](https://leamarchal.fr)"
 level: "Undergraduate (Third Year)"
 language: "French"

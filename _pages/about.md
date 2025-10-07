@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <p style="text-align: justify;">
-I am a first-year PhD candidate at the Centre d'Economie de la Sorbonne (CES) and the Sorbonne School of Economics under the co-supervision of <a href="https://leamarchal.fr">Léa Marchal</a> (CES, Paris 1) and <a href="https://sites.google.com/view/valettejerome/home">Jérôme Valette</a> (CEPII).
+I am a first-year PhD candidate at the <a href="https://centredeconomiesorbonne.cnrs.fr"> Centre d'Economie de la Sorbonne </a> (CES) at University Paris 1 Panthéon-Sorbonne under the co-supervision of <a href="https://leamarchal.fr">Léa Marchal</a> (CES, Paris 1) and <a href="https://sites.google.com/view/valettejerome/home">Jérôme Valette</a> (CEPII).
 </p>
 
 <p style="text-align: justify;">
@@ -18,4 +18,4 @@ My research focuses on how institutions shape identities, belonging, and inequal
 I hold a Master's degree in Development Economics from <a href="https://economie.pantheonsorbonne.fr">University of Paris 1: Panthéon Sorbonne</a> and dual Bachelor's degrees in Economics and Geography from University of Paris 1.
 </p>
 
-→ To view the latest version of my CV, please click [here](files/MyCV.pdf)
+→ To view the latest version of my CV, please click [here](files/MyCV.pdf) *(Updated September 2025)*.

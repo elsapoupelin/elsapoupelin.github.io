@@ -18,4 +18,4 @@ My research focuses on how institutions shape identities, belonging, and inequal
 I hold a Master's degree in Development Economics from <a href="https://economie.pantheonsorbonne.fr">University of Paris 1: Panthéon Sorbonne</a> and dual Bachelor's degrees in Economics and Geography from University of Paris 1.
 </p>
 
-→ To view the latest version of my CV, please click [here](files/MyCV.pdf) *(Updated September 2025)*.
+→ To view the latest version of my CV, please click [here](files/MyCV.pdf) *(Updated October 2025)*.
